@@ -20,7 +20,13 @@ export class HomeComponent implements OnInit {
   saveController() {
     alert("dsugfuydsgfyud")
     console.log(this);
-    this.controllerService.addResume({hostName: this.hostName, userName: this.userName, password: this.password}).subscribe(
+    this.controllerService.addResume(
+      {
+        hostName: this.hostName, 
+        userName: this.userName, 
+        password: this.password
+      })
+      .subscribe(
       (data: any) => {
         console.log(data);
       },
