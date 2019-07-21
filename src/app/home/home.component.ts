@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
+  hostName = '';
+  userName = '';
+  password = '';
   constructor() { }
 
   ngOnInit() {
+    console.log('startedddd')
+  }
+
+  saveController() {
+    alert("dsugfuydsgfyud")
   }
 
 }
