@@ -379,7 +379,7 @@
                             <label for="exampleInputPassword4">Password</label>
                             <input type="password" class="form-control" id="exampleInputPassword4" name="password" [(ngModel)]="password" placeholder="Password">
                           </div>
-                          <button type="submit" class="btn btn-gradient-primary mr-2">Submit</button>
+                          <button class="btn btn-gradient-primary mr-2" (click)="saveController()" >Submit</button>
                           <!-- <button class="btn btn-light">Cancel</button> -->
                         </form>
                       </div>
