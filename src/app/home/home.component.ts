@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit {
   }
 
   saveController() {
-    alert("dsugfuydsgfyud");
+    // alert("dsugfuydsgfyud");
     console.log(this);
     this.controllerService
       .addResume({
