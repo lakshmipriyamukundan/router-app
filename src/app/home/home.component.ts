@@ -13,6 +13,12 @@ export class HomeComponent implements OnInit {
   tab1 = true;
   tab2 = false;
   homeShow = true;
+  sites = [
+    { id: "1", name: "order 1" },
+    { id: "2", name: "order 2" },
+    { id: "3", name: "order 3" },
+    { id: "4", name: "order 4" }
+  ];
 
   constructor(private controllerService: ControllerService) {}
 
